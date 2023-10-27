@@ -17,12 +17,14 @@ Impleted the logic to convert long url to short url in UrlShortner.py class.
   
 <img width="660" alt="image" src="https://github.com/siddavatam-vasuda-srusti-praharshitha/helloar/assets/70091238/603aa936-b69d-4066-9b94-349433c25bd7">
 
+
 **Task2**
 
 API should have an endpoint for search. Search will return results matching the title of the url. Say term "Python", api should return all pages which have partial or full match for the term with the title of the page and url.
 _@app.route('/search', methods=['GET'])_ - Takes input as substirng of the url and returns the url.
 
 <img width="655" alt="image" src="https://github.com/siddavatam-vasuda-srusti-praharshitha/helloar/assets/70091238/61205a00-158e-4832-9f11-8dbe374ea6aa">
+
 
 **Task3**
 
