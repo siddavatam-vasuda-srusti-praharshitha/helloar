@@ -10,10 +10,10 @@ Create API should take a long url and return a short url. API doesn't require au
 _@app.route('/shorten', methods=['POST'])__ - Takes input as longurl (mimetype as json )and returns short url.
 Impleted the logic to convert long url to short url in UrlShortner.py class.
   -shorten_url method will generate a hashvalue using custom_hash function and replaces the hashvalue after the first "/"-slash present in the url.
-  - Returns invalid url if the url dosent contain https://
+  - Returns invalid url if the url doesn't contain https://
   Ex: Longurl - https://en.wikipedia.org/wiki/URL_shortening
       shorturl - https://en.wikipedia.org/23456 where 23456 is hashvalue.
-- Once the shorturl is genreated , global dict is maintained to store long vs short url details. which will further help in task2.
+- Once the shorturl is generated , global dict is maintained to store long vs short url details. which will further help in task2.
   
 <img width="660" alt="image" src="https://github.com/siddavatam-vasuda-srusti-praharshitha/helloar/assets/70091238/603aa936-b69d-4066-9b94-349433c25bd7">
 
